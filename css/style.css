@@ -10,7 +10,17 @@ body, html {
 }
 
 .container, h1 {
-	@@ -22,21 +25,83 @@ h4 {
+  width: 80%;
+  max-width: 600px;
+  min-width: 400px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+h4 {
+  width: fit-content;
+  display: inline-block;
+  padding: 5px;
   margin: 20px 0 0 0;
 }
 
@@ -94,4 +104,17 @@ h4.dubious:hover {
 .column {
   width: 30%;
   display: inline-block;
+}
+
+.small {
+  width: 100%;
+  height: 100%;
+}
+
+.med {
+  width: 203.5%;
+}
+
+.large {
+  width: 303%;
 }
